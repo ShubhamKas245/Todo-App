@@ -52,11 +52,12 @@ h1 span {
 	color: #EEFFF0;
 	display: flex;
 	align-items: center;
-	/* padding-left: 20px; */
 	overflow: hidden;
+	transition:width 0.2s ease-in-out;
 }
 .progress-val span{
 	padding-left: 20px;
+	min-width: max-content;
 }
 .error-label{
 	font-size: 12px;
